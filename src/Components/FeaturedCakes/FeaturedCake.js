@@ -5,11 +5,11 @@ import './FeaturedCake.css'
 function FeaturedCakes() {
   
   const cakes = [
-    { id: 1, name: "Chocolate Truffle", image: "/images/Chocolate.png" },
-    { id: 2, name: "Red Velvet", image: "/images/red velvet.png" },
-    { id: 3, name: "Lemon Cake", image: "/images/Lemon.png" },
-    { id: 4, name: "Tiramasu Cake", image: "/images/tiramasu.png" },
-    { id: 5, name: "Fruit Cake", image: "/images/Fruit.png" },
+    { id: 1, name: "Chocolate Truffle", image: "/Images/Chocolate.png" },
+    { id: 2, name: "Red Velvet", image: "/Images/red velvet.png" },
+    { id: 3, name: "Lemon Cake", image: "/Images/Lemon.png" },
+    { id: 4, name: "Tiramasu Cake", image: "/Images/tiramasu.png" },
+    { id: 5, name: "Fruit Cake", image: "/Images/Fruit.png" },
   ];
 
   return (
