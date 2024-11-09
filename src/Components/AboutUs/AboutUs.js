@@ -12,10 +12,10 @@ const AboutUs = () => {
       </header>
       <section className="image-grid">
         {[
-          { id: 1, src: '/images/gift1.webp', alt: 'Gift Box 1' },
-          { id: 2, src: '/images/gift2.jpg', alt: 'Gift Box 2' },
-          { id: 3, src: '/images/gift3.webp', alt: 'Gift Box 3' },
-          { id: 4, src: '/images/gift4.jpg', alt: 'Owners with Gift Boxes' },
+          { id: 1, src: '/Images/gift1.webp', alt: 'Gift Box 1' },
+          { id: 2, src: '/Images/gift2.jpg', alt: 'Gift Box 2' },
+          { id: 3, src: '/Images/gift3.webp', alt: 'Gift Box 3' },
+          { id: 4, src: '/Images/gift4.jpg', alt: 'Owners with Gift Boxes' },
         ].map((image) => (
           <div key={image.id} className="image-container">
             <img src={image.src} alt={image.alt} />
